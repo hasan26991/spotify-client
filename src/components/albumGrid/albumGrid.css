@@ -1,0 +1,84 @@
+.albumGridContainer {
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+    height: 400px;
+    border: solid black 1px;
+    margin-bottom: 40px;
+    flex-grow: 1;
+}
+
+.imgCaontainer {
+    height: 50%;
+}
+
+.gridImage {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.infooContainer {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+}
+
+.titleName {
+    font-size: 25px;
+}
+
+
+.artistNames {
+    display: flex;
+    color: rgb(112, 106, 106);
+    margin: 0px 20px 0px 20px;
+}
+
+.artistNamesSeparator {
+    margin-right: 15px;
+}
+
+.releaseDate {
+    color: rgb(112, 106, 106);
+    margin: 0px 20px 0px 20px;
+    margin-top: auto;
+}
+
+.totalTracks {
+    color: rgb(112, 106, 106);
+    margin: 0px 20px 0px 20px;
+}
+
+
+.previewButton {
+    height: 15%;
+    width: 100%;
+    color: rgb(112, 106, 106);
+    margin-top: 10px;
+    border: solid black 1px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 920px) {
+    .albumGridContainer {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .albumGridContainer {
+        width: 100%;
+    }
+}

@@ -1,0 +1,27 @@
+.albumContainer {
+    margin: 50px 40px 40px 40px;
+}
+
+.artistInfo {
+    width: 100%;
+}
+
+.artistName {
+    font-size: 30px;
+    margin: 0px;
+}
+
+.artistLabel {
+    font-size: 30px;
+    color: silver;
+    margin: 0px;
+}
+
+.MovieListontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px 0 0 0;
+    gap: 5%;
+
+}

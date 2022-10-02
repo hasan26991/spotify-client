@@ -1,0 +1,61 @@
+.gridContainer {
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+    height: 400px;
+    border: solid black 1px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    flex-grow: 1;
+}
+
+.imgCaontainer {
+    height: 50%;
+    margin: 2px;
+}
+
+.gridImage {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.infooContainer {
+    width: 100%;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.release-popularityContainer {
+    display: flex;
+    color: rgb(112, 106, 106);
+    margin: 10px 20px 0px 20px;
+}
+
+
+.rating {
+    margin: 0px 20px 10px 20px;
+}
+
+
+@media only screen and (max-width: 920px) {
+    .gridContainer {
+        width: 30%;
+        /* max-width: 100%; */
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .gridContainer {
+        width: 100%;
+        /* max-width: 100%; */
+    }
+}

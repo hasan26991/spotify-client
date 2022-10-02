@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    height: 60px;
+    width: auto;
+    background-color: rgb(238, 238, 238);
+}
+
+.companyLabel {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 0 0 40px;
+    font-weight: 100;
+    font-size: 30px;
+}
