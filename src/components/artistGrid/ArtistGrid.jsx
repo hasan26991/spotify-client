@@ -10,7 +10,7 @@ const ArtistGrid = ({ artist }) => {
     return (
         <div className='gridContainer' onClick={() => navigate('/albumsearch', { state: { id: artist?.id, name: artist?.name } })}>
             <div className='imgCaontainer'>
-                <img className='gridImage' src={artist?.images[0]?.url} alt='' />
+                <img className='artistGridImage' src={artist?.images[0]?.url} alt='' />
             </div>
             <div className='infooContainer'>
                 <div className='titleContainer'>
@@ -21,7 +21,7 @@ const ArtistGrid = ({ artist }) => {
                 </div>
             </div>
             <div className='rating'>
-                <Rating ratingValue={artist?.popularity} allowHover={false} />
+                <Rating className='ratingLibrary' ratingValue={artist?.popularity} allowHover={false} />
             </div>
         </div>
     )

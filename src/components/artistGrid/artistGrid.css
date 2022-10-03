@@ -11,13 +11,15 @@
 
 .imgCaontainer {
     height: 50%;
-    margin: 2px;
+    min-height: 50%;
+    max-height: 50%;
 }
 
-.gridImage {
+.artistGridImage {
     height: 100%;
     width: 100%;
-    object-fit: fill;
+    /* object-fit: fill; */
+    object-fit: cover;
 }
 
 .infooContainer {
@@ -46,16 +48,24 @@
 }
 
 
-@media only screen and (max-width: 920px) {
+
+@media only screen and (max-width: 1100px) {
     .gridContainer {
-        width: 30%;
-        /* max-width: 100%; */
+        width: 25%;
     }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 760px) {
     .gridContainer {
-        width: 100%;
-        /* max-width: 100%; */
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .gridContainer {
+        width: 60%;
+        height: 500px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
